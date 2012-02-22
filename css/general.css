@@ -1,0 +1,38 @@
+body {
+font-family: 'Lucida Sans Unicode','Lucida Grande',sans-serif;
+font-size: 13px;
+margin: 0;
+padding: 0;
+}
+body *{
+margin:0; padding: 0;
+}
+a{
+color: #D22525;
+cursor: pointer;
+text-decoration: none;
+}
+#container{
+width: 900px;
+margin: 30px auto;
+}
+#middle form label{width: 60px;display: block;}
+#middle form input{margin: 10px 0;}
+.item{width : 100%;display: block;clear:left;min-height: 120px;border-bottom: 0.5px solid gray;padding: 10px 0 0;}
+input, textarea{
+width: 16em;
+height: 2em;
+margin: 3px 0 10px;
+border: 1px solid gray;
+border-radius: 5px;
+padding: 2px;
+font-size: 12px;
+}
+textarea{
+width: 25em;
+height: 6em;
+}
+input:focus, textarea:focus{
+box-shadow: 0 0 3px -1px #6181C0;
+}
+
